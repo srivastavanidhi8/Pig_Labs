@@ -1,1 +1,24 @@
 #Pig Basics
+(base) [root@hadoop ~]# pig -x tez
+2020-09-04 20:58:08,193 INFO pig.ExecTypeProvider: Trying ExecType : LOCAL
+2020-09-04 20:58:08,203 INFO pig.ExecTypeProvider: Trying ExecType : MAPREDUCE
+2020-09-04 20:58:08,204 INFO pig.ExecTypeProvider: Trying ExecType : TEZ_LOCAL
+2020-09-04 20:58:08,208 INFO pig.ExecTypeProvider: Trying ExecType : TEZ
+2020-09-04 20:58:08,208 INFO pig.ExecTypeProvider: Picked TEZ as the ExecType
+2020-09-04 20:58:08,322 [main] INFO  org.apache.pig.Main - Apache Pig version 0.17.0 (r1797386) compiled Jun 02 2017, 15:41:58
+2020-09-04 20:58:08,322 [main] INFO  org.apache.pig.Main - Logging error messages to: /root/pig_1599271088317.log
+2020-09-04 20:58:08,367 [main] INFO  org.apache.pig.impl.util.Utils - Default bootup file /root/.pigbootup not found
+2020-09-04 20:58:09,080 [main] INFO  org.apache.hadoop.conf.Configuration.deprecation - mapred.job.tracker is deprecated. Instead, use mapreduce.jobtracker.address
+2020-09-04 20:58:09,080 [main] INFO  org.apache.pig.backend.hadoop.executionengine.HExecutionEngine - Connecting to hadoop file system at: hdfs://localhost:9000
+2020-09-04 20:58:10,513 [main] INFO  org.apache.pig.PigServer - Pig Script ID for the session: PIG-default-8626e0ec-9cbd-483e-bd2e-074b5ea2a584
+2020-09-04 20:58:10,513 [main] WARN  org.apache.pig.PigServer - ATS is disabled since yarn.timeline-service.enabled set to false
+
+
+grunt> fs -mkdir /data
+grunt> fs -ls /data
+grunt> sh ls /opt
+R
+rstudio-1.3.1056
+grunt>
+
+
