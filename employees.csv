@@ -1,0 +1,7 @@
+EmployeeID,Name,Department,Manager,Salary,DepartmentNumber
+1,Robin Hood,,,200,101
+2,Arsene Wenger,Bar,Friar Tuck,50,101
+3,Friar Tuck,Foo,Robin Hood,100,103
+4,Little John,Foo,Robin Hood,100,108
+5,Sam Allardyce,,,250,108
+6,Dimi Berbatov,Foo,Little John,50,110
